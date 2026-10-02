@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: hsl(220 28% 10%);
+  --color-accent: hsl(199 89% 46%);
+  --color-accent-dark: hsl(205 92% 38%);
+  --color-bg-dark: hsl(220 32% 7%);
+  --color-bg-card-dark: hsl(220 26% 12%);
+  --color-bg-light: hsl(210 20% 98%);
+  --color-bg-card: hsl(0 0% 100%);
+  --color-border-light: hsl(220 14% 90%);
+  --color-border-dark: hsl(220 20% 18%);
+  --color-text-main: hsl(220 24% 13%);
+  --color-text-muted: hsl(220 12% 44%);
+  --color-text-dim: hsl(220 10% 64%);
+  --font-display: "Archivo Narrow", -apple-system, sans-serif;
+  --font-body: "Archivo", -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+    font-family: var(--font-body);
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 17px;
+    }
+  }
+  @media (min-width: 1280px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1600px) {
+    html {
+      font-size: 19px;
+    }
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* The root size, chosen per breakpoint.
+
+   Everything on these pages is laid out in rem, so this single value sets the
+   size of the whole site at each width. A viewport-scaled root breaks on
+   exactly the devices people hold: measured live, 17.3px at 390px, heading for
+   26.7px at 600px, while an 800px tablet got 12.5px.
+
+   The ladder is reading distance, not arithmetic. A phone is held at arm's
+   length and the platform is calibrated to 16px — iOS text-size settings
+   assume it, and 16px at 390px gives about 45 characters a line, the low end of
+   comfortable. Each step out adds distance and screen, so the type grows with
+   it, and stops at 20px where a line would otherwise run past 75 characters. */
+html { font-size: 16px; }
+@media (min-width: 768px)  { html { font-size: 17px; } }
+@media (min-width: 1280px) { html { font-size: 18px; } }
+@media (min-width: 1600px) { html { font-size: 19px; } }
+@media (min-width: 1920px) { html { font-size: 20px; } }
+
+
+/* The root size, chosen per breakpoint.
+
+   Everything on these pages is laid out in rem, so this single value sets the
+   size of the whole site at each width. A viewport-scaled root breaks on
+   exactly the devices people hold: measured live, 17.3px at 390px, heading for
+   26.7px at 600px, while an 800px tablet got 12.5px.
+
+   The ladder is reading distance, not arithmetic. A phone is held at arm's
+   length and the platform is calibrated to 16px — iOS text-size settings
+   assume it, and 16px at 390px gives about 45 characters a line, the low end of
+   comfortable. Each step out adds distance and screen, so the type grows with
+   it, and stops at 20px where a line would otherwise run past 75 characters. */
+html { font-size: 16px; }
+@media (min-width: 768px)  { html { font-size: 17px; } }
+@media (min-width: 1280px) { html { font-size: 18px; } }
+@media (min-width: 1600px) { html { font-size: 19px; } }
+@media (min-width: 1920px) { html { font-size: 20px; } }
+
+/* iOS Safari zooms the whole page when a focused field is under 16px. */
+@media (max-width: 1024px) {
+  input:not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    font-size: max(16px, 1em);
+  }
+
+  /* Two columns that meet in the middle.
+
+     A label/value row is flex justify-between with no gap, which is fine
+     until the label wraps — then the two blocks touch and the row reads as one
+     smear of text. Measured on a shipped page at 390px: seven rows with a gap
+     of exactly 0px, worst on long unbreakable names ("All-on-4 / All-on-6").
+
+     gap is a MINIMUM, and justify-between already pushes items apart, so
+     this changes nothing until the content is wide enough to collide — which
+     is precisely the case being fixed. min-width:0 is the other half: a
+     flex child refuses to shrink below its content by default, so the long
+     label pushes the price out instead of wrapping. */
+  [class~="justify-between"] {
+    gap: 0.75rem;
+  }
+
+  [class~="justify-between"] > * {
+    overflow-wrap: break-word;
+  }
+
+  /* Layout is NOT set from here, and this is where that was learned.
+     A rule that restacked every text-only justify-between row fixed the price
+     list and broke three other places in the same deploy: the FAQ toggle "+"
+     stretched to 11rem and dropped below its question, the slider's "1" and "2"
+     end labels stacked on top of each other, and a row of category pills came
+     apart. A stylesheet cannot tell a label/value pair from a question and its
+     toggle — only the component knows, so restacking belongs in the component,
+     which is what the generator prompt now asks for.
+
+     What stays here is what cannot misjudge anything: a minimum gap so two
+     columns never touch, and permission for a long word to break. */
+
+  /* A finger needs 44px. Measured on a shipped page: 30 of 63 controls came in
+     under 40, which reads as "nothing responds". Buttons only — an inline link
+     inside a paragraph is text, and inflating it would break the prose. */
+  button,
+  [role="button"] {
+    min-height: 44px;
+  }
+
+}
+
+/* The root size, chosen per breakpoint.
+
+   Everything on these pages is laid out in rem, so this single value sets the
+   size of the whole site at each width. A viewport-scaled root breaks on
+   exactly the devices people hold: measured live, 17.3px at 390px, heading for
+   26.7px at 600px, while an 800px tablet got 12.5px.
+
+   The ladder is reading distance, not arithmetic. A phone is held at arm's
+   length and the platform is calibrated to 16px — iOS text-size settings
+   assume it, and 16px at 390px gives about 45 characters a line, the low end of
+   comfortable. Each step out adds distance and screen, so the type grows with
+   it, and stops at 20px where a line would otherwise run past 75 characters. */
+html { font-size: 16px; }
+@media (min-width: 768px)  { html { font-size: 17px; } }
+@media (min-width: 1280px) { html { font-size: 18px; } }
+@media (min-width: 1600px) { html { font-size: 19px; } }
+@media (min-width: 1920px) { html { font-size: 20px; } }

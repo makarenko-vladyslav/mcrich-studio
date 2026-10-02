@@ -1,0 +1,1179 @@
+{
+  "defaultLocale": "no",
+  "locales": {
+    "no": {
+      "meta": {
+        "title": "McRich Studio — Lynraske nettsider i Framer & Webflow | Oslo",
+        "description": "Nøkkelferdige B2B-nettsider til fastpris. Lansering på 10–14 dager med garantert WCAG 2.1 AA og 90+ i Google PageSpeed.",
+        "lang": "no"
+      },
+      "brand": {
+        "name": "McRich Studio",
+        "wordmark": "MCRICH",
+        "submark": "OSLO STUDIO",
+        "tagline": "Webdesign & Utvikling",
+        "city": "Oslo",
+        "founded": "2024",
+        "email": "ishop.inform@gmail.com",
+        "address": "Oslo",
+        "orgNumber": "NO 933 481 024 MVA"
+      },
+      "nav": {
+        "services": "Tjenester",
+        "comparison": "Hvorfor oss",
+        "calculator": "Konfigurator",
+        "packages": "Priser & Pakker",
+        "process": "Fremgangsmåte",
+        "wcag": "Tilgjengelighet",
+        "team": "Studioet",
+        "faq": "Spørsmål",
+        "contact": "Kontakt",
+        "cta": "Bestill nettsiderevisjon",
+        "menuOpen": "Åpne meny",
+        "menuClose": "Lukk meny",
+        "menuCloseLabel": "LUKK ✕",
+        "switchLang": "English",
+        "langLabel": "SPRÅK / LANGUAGE:"
+      },
+      "hero": {
+        "watermark": "OSLO",
+        "kicker": "ETABLERT 2024 · OSLO",
+        "headlinePart1": "Lynraske B2B-nettsider.",
+        "headlineItalic": "Lansert på 14 dager.",
+        "headlinePart2": "Uten byråbyråkrati.",
+        "lede": "Vi bygger moderne nettsider i Framer og Webflow for ambisiøse B2B-bedrifter i Oslo og Viken. Nøkkelferdig til garantert fastpris, med 100 % samsvar med kravene fra Uu-tilsynet (WCAG 2.1 AA) og direkte kontakt med seniorutvikleren.",
+        "ctaPrimary": "Bestill gratis nettsidegjennomgang",
+        "ctaSecondary": "Se priser og spesifikasjoner",
+        "metaResponse": "RESPONSTID: INNEN 24 TIMER",
+        "metaAddress": "LOKASJON: OSLO",
+        "metaScore": "KRAVSAMSVAR: 100 % WCAG 2.1 AA",
+        "flankLeft": "NØKKELFERDIG DRIFT // 100 % KILDEKODEEIERSKAP",
+        "flankRight": "DIREKTE DIALOG // SENIOR FRAMER-ARKITEKT",
+        "sealText": "MCRICH STUDIO OSLO · FASTPRIS · 14 DAGER · ",
+        "auditBenchmark": "AUDITERT BENCHMARK",
+        "verified": "VERIFISERT",
+        "floatingCardTitle": "Ytelsesgaranti i kontrakt",
+        "floatingCardMetric": "98 / 100",
+        "floatingCardSub": "Lighthouse mobilscore på alle leverte nettsider",
+        "fcpLabel": "First Contentful Paint:",
+        "lcpLabel": "Largest Contentful Paint:",
+        "wcagContrastLabel": "WCAG 2.1 AA Kontrast:",
+        "scrollDown": "Rull for arkitektur",
+        "tickerPhrase": "100 % WCAG 2.1 AA-SAMSVAR · 90+ LIGHTHOUSE MOBILSCORE · 10–14 DAGERS FASTPRIS-SPRINT · NULL BYRÅBYRÅKRATI · DIREKTE KONTAKT MED UTVIKLER · INGEN MÅNEDLIGE BINDINGER · "
+      },
+      "interstitials": {
+        "tickerItems": [
+          "WCAG 2.1 AA FORSKRIFT",
+          "LIGHTHOUSE 98/100",
+          "FASTPRIS I KONTRAKT",
+          "10–14 DAGERS SPRINTS",
+          "DIREKTE MED UTVIKLER"
+        ],
+        "hairlineStandard": "— DOKUMENTERT KVALITETSFORSKJELL I OSLO-MARKEDET —",
+        "quoteStatement": "«En nettside som bruker over 2 sekunder på å laste taper opptil 40 % av potensielle B2B-henvendelser i første klikk.»",
+        "quoteAuthor": "KILDE: GOOGLE CORE WEB VITALS BENCHMARK RAPPORT 2025/2026",
+        "legalStandard": "FORSKRIFT OM UNIVERSELL UTFORMING AV IKT § 4 · STANDARD NS-EN 301 549 · UU-TILSYNET",
+        "coverageTitle": "STOR-OSLO DEKNING:",
+        "coverageZones": [
+          "SENTRUM",
+          "FROGNER",
+          "BÆRUM",
+          "ASKER",
+          "LILLESTRØM",
+          "SKI",
+          "DRAMMEN"
+        ]
+      },
+      "proof": {
+        "kicker": "DOKUMENTERT NORSK STANDARD",
+        "title": "Fakta fremfor byråsnakk",
+        "subtitle": "Hvert eneste prosjekt leveres med juridisk bindende kvalitetsgarantier.",
+        "quote": "«McRich Studio kuttet lastetiden vår fra 4,8 til 0,9 sekunder. Mobilhenvendelsene våre økte med 64 % på under tre uker, uten en eneste uventet regning.»",
+        "quoteAuthor": "Lars Kristian Holmen",
+        "quoteRole": "Daglig leder, Nordic Logistics AS — Oslo Sentrum",
+        "ratingText": "5,0 AV 5,0 · BASERT PÅ 28 DOKUMENTERTE PROSJEKTER I STOR-OSLO",
+        "stat1Value": "14",
+        "stat1Unit": "dager",
+        "stat1Label": "Maksimal leveringstid fra designgodkjenning til publisering",
+        "stat2Value": "95+",
+        "stat2Unit": "score",
+        "stat2Label": "Målt Google PageSpeed Core Web Vitals på mobilnett",
+        "stat3Value": "100%",
+        "stat3Unit": "WCAG",
+        "stat3Label": "Full overholdelse av forskrift om universell utforming",
+        "stat4Value": "0 kr",
+        "stat4Unit": "gebyrer",
+        "stat4Label": "Ingen timebaserte sprekker eller tvungne supportavtaler"
+      },
+      "services": {
+        "kicker": "KJERNELEVERANSER",
+        "title": "Spesialisert webutvikling uten unødvendige mellomledd",
+        "subtitle": "Vi benytter utelukkende neste generasjons webteknologi som gir deg full eierskap og lynrask lastetid.",
+        "activeSpec": "AKTIV SPESIFIKASJON",
+        "ctaCalculate": "Beregn pris for denne leveransen",
+        "items": [
+          {
+            "id": "framer",
+            "title": "Konverteringsfokuserte Framer-landingssider",
+            "description": "Utviklet spesifikt for B2B-kampanjer og programvareoppstarter som krever maksimal konvertering og smidig animasjon uten kodekaos.",
+            "specs": "Lansering 7–10 dager · Integrert skjema · 98+ PageSpeed",
+            "tag": "Mest populær"
+          },
+          {
+            "id": "webflow",
+            "title": "Skalerbare B2B-bedriftsnettsider i Webflow",
+            "description": "Komplette firmaportaler med modulært CMS der markedsavdelingen enkelt kan publisere artikler, kundereferanser og ledige stillinger på sekunder.",
+            "specs": "Opptil 15 unike maler · Full CMS-arkitektur · Null vedlikeholdsfeller",
+            "tag": "B2B Standard"
+          },
+          {
+            "id": "wcag",
+            "title": "Universell utforming og WCAG 2.1 AA-revisjon",
+            "description": "Sikrer at bedriften overholder kravene fra Uu-tilsynet med dokumentert fargekontrast, full tastaturnavigasjon og optimal skjermleserstruktur.",
+            "specs": "Revisjonsrapport · Ingen risiko for dagbøter · Inkludert i alle bedriftspakker",
+            "tag": "Lovpålagt"
+          },
+          {
+            "id": "migration",
+            "title": "Migrering fra treg WordPress til Framer",
+            "description": "Vi flytter innhold, bilder og etablert SEO-struktur fra overvektige WordPress-installasjoner over til ren, sikker og vedlikeholdsfri Framer-infrastruktur.",
+            "specs": "301-omdirigeringer bevart · 4x raskere lastetid · Betydelig høyere konvertering",
+            "tag": "Modernisering"
+          },
+          {
+            "id": "integrations",
+            "title": "Integrasjon med Vipps, Fiken og Tripletex",
+            "description": "Sømløs oppkobling av norske betalings- og regnskapssystemer, Cal.com-møtebooking og direkte varsling til selskapets e-post eller CRM.",
+            "specs": "Vipps Hurtigkasse · Automatisk bilagsflyt · Cal.com sanntidskalender",
+            "tag": "Norsk infrastruktur"
+          },
+          {
+            "id": "speed",
+            "title": "Core Web Vitals & Lokal Oslo-SEO",
+            "description": "Avansert ytelsesoptimalisering med neste generasjons bildeformater, inline skrifttyper og strukturert Schema.org-data for dominans i Oslo-søk.",
+            "specs": "Under 1,2 sekunders LCP · Schema.org metadata · Google Bedriftsprofil-sync",
+            "tag": "Ytelse"
+          }
+        ]
+      },
+      "comparison": {
+        "kicker": "KVALITETSSAMMENLIGNING",
+        "title": "Tradisjonelt Oslo-byrå mot McRich Studio",
+        "subtitle": "Hvorfor innovative norske bedrifter velger direkte utviklersamarbeid fremfor oppblåste byråprosesser.",
+        "colAgency": "Tradisjonelt webbyrå i Oslo",
+        "colMcrich": "McRich Studio (Fastpris)",
+        "criterion": "Kriterium",
+        "traditionalLabel": "Tradisjonelt:",
+        "mcrichLabel": "McRich:",
+        "points": [
+          {
+            "label": "Leveringstid",
+            "agency": "3 til 5 måneder med utallige statusmøter og venting",
+            "mcrich": "Garantert 10 til 14 dager fra start til lansering"
+          },
+          {
+            "label": "Prismodell",
+            "agency": "1 800 kr/time med løpende fakturering og omfangsutglidning",
+            "mcrich": "100 % forutsigbar fastpris låst i skriftlig avtale"
+          },
+          {
+            "label": "Kontaktperson",
+            "agency": "Prosjektleder og juniorkoordinator som videresender meldinger",
+            "mcrich": "Direkte dialog med seniorutvikleren som bygger nettsiden"
+          },
+          {
+            "label": "Teknologistakk",
+            "agency": "Tunge WordPress-temaer med 30+ plugins og sikkerhetshull",
+            "mcrich": "Rask og sikker Framer/Webflow uten plugin-sårbarheter"
+          },
+          {
+            "label": "Månedlige bindinger",
+            "agency": "Obligatoriske supportavtaler fra 5 000 til 12 000 kr/måned",
+            "mcrich": "0 kr i tvungen support. Du eier kildekoden og nettsiden helt selv"
+          },
+          {
+            "label": "WCAG 2.1 AA-garanti",
+            "agency": "Faktureres ofte som dyrt ekstratillegg på slutten",
+            "mcrich": "Innebygd standard i alle prosjekter med skriftlig garanti"
+          }
+        ]
+      },
+      "calculator": {
+        "kicker": "INTERAKTIV ESTIMERING",
+        "title": "Beregn investeringen for ditt prosjekt",
+        "subtitle": "Transparente priser basert på reelle krav. Juster parametere for et umiddelbart kostnadsbilde i norske kroner ekskl. MVA.",
+        "pagesLabel": "Antall unike nettsider / maler:",
+        "pageCountUnit": "sider",
+        "sliderMin": "1 side (Énsides)",
+        "sliderMid": "6 sider (Bedrift)",
+        "sliderMax": "16 sider (Portal)",
+        "integrationsHeading": "Nødvendige moduler og integrasjoner:",
+        "addOption": "LEGG TIL",
+        "selectedOption": "VALGT",
+        "options": {
+          "wcag": "Offisiell WCAG 2.1 AA-tilgjengelighetssertifisering (+7 500 kr)",
+          "vipps": "Vipps Hurtigkasse & betalingsflyt (+5 500 kr)",
+          "fiken": "Integrasjon mot Fiken eller Tripletex (+6 200 kr)",
+          "bilingual": "Tospråklig oppsett (Norsk og Engelsk) (+8 900 kr)",
+          "cms": "Skreddersydd CMS med videoopplæring (+6 800 kr)",
+          "seo": "Lokal SEO-pakke for Oslo og Akershus (+5 000 kr)"
+        },
+        "fixedEstimateBadge": "FASTPRIS ESTIMAT (EKSKL. MVA)",
+        "summaryTitle": "Beregnet prosjektinvestering",
+        "totalEstimateLabel": "TOTAL ESTIMERT INVESTERING:",
+        "ownershipNote": "Inkludert fullt eierskap og kildekode",
+        "turnaroundLabel": "Estimert leveringstid:",
+        "turnaroundVal": "10–14 virkedager",
+        "agreementLabel": "Avtalegaranti:",
+        "agreementVal": "Fastpris uten overtid",
+        "uuLabel": "Krav Uu-tilsynet:",
+        "uuVal": "WCAG 2.1 AA",
+        "fixedPriceGuarantee": "Garantert fastpris i kontrakt · Ingen timeoverraskelser",
+        "cta": "Lås denne estimeringen via uforpliktende møte"
+      },
+      "packages": {
+        "kicker": "FASTE PROSJEKTPAKKER OG SPESIFIKASJONER",
+        "title": "Tydelige rammer. Ingen skjulte kostnader.",
+        "subtitle": "Velg pakken som passer ditt nåværende selskapsstadium, eller gå gjennom den fullstendige spesifikasjonslisten under.",
+        "badgeMvp": "OPPSTART & MVP",
+        "badgeGrowth": "VEKSTBEDRIFT",
+        "badgeEnterprise": "ENTERPRISE & VIPPS",
+        "recommended": "Mest valgt av B2B",
+        "pkg1Title": "Oslo Oppstart",
+        "pkg1Price": "22 500 kr",
+        "pkg1Duration": "Levering: 7–10 dager",
+        "pkg1Desc": "Konverterende énsides nettsted på Framer med integrert kontaktskjema, mobiloptimalisering og lynrask drift.",
+        "pkg1Features": [
+          "Én komplett, konverteringsoptimalisert landingsside",
+          "Responsivt layout for mobil, nettbrett og 4K-skjermer",
+          "Integrert kontaktskjema med direkte varsel til e-post",
+          "Minst 4,5:1 kontrastforhold og tastaturnavigasjon",
+          "Loom-video for enkel redigering av tekst og bilder",
+          "14 dagers teknisk oppfølging etter lansering"
+        ],
+        "pkg2Title": "Bedrift Vekst",
+        "pkg2Price": "48 000 kr",
+        "pkg2Duration": "Levering: 10–14 dager",
+        "pkg2Desc": "Fullverdig bedriftsnettsted på opptil 6 sider med komplett samsvar for universell utforming og 90+ i Google PageSpeed.",
+        "pkg2Features": [
+          "Opptil 6 unike sider (Forside, Tjenester, Om oss, Blogg, Kontakt, Referanser)",
+          "100 % samsvar med WCAG 2.1 AA fra Uu-tilsynet",
+          "90+ dokumentert PageSpeed-score i Lighthouse",
+          "Modulært CMS for artikler, nyheter og referanser",
+          "Lokal SEO-optimalisering for Oslo-regionen",
+          "30 dagers teknisk bistand og personlig opplæring"
+        ],
+        "pkg3Title": "Skandinavisk Skreddersøm",
+        "pkg3Price": "79 000 kr",
+        "pkg3Duration": "Levering: 14–21 dager",
+        "pkg3Desc": "Skreddersydd bedriftsløsning på opptil 12 sider med integrasjon mot Vipps, regnskapssystemer og tospråklig struktur.",
+        "pkg3Features": [
+          "Opptil 12 sider med skreddersydd design og mikrosamhandling",
+          "Vipps Hurtigkasse og Fiken/Tripletex-synkronisering",
+          "Full tospråklig versjon (norsk og engelsk lokalisering)",
+          "Cal.com eller Calendly bookingkalender integrert",
+          "Informasjonskapselfri personvernanalyse iht. GDPR",
+          "60 dagers teknisk garanti og prioritert support"
+        ],
+        "selectPkg": "Velg denne pakken",
+        "breakdownKicker": "LEVERANSEKATALOG · FASTE SPESIFIKASJONER",
+        "breakdownTitle": "Komplett oversikt over enkeltytelser og moduler",
+        "catAll": "Alle moduler",
+        "catCore": "Kjerneløsninger",
+        "catIntegrations": "Integrasjoner",
+        "catCompliance": "Krav & Ytelse",
+        "footnote": "Alle priser oppgis i norske kroner ekskl. 25 % MVA. 50 % forfaller ved prosjektoppstart og 50 % ved godkjent lansering.",
+        "secondaryCta": "Be om komplett spesifikasjonsdokument",
+        "lineItems": [
+          {
+            "category": "core",
+            "name": "Énsides Framer landingsside",
+            "price": "22 500 NOK",
+            "desc": "Konverteringsoptimalisert énsides arkitektur, 7–10 dagers sprint",
+            "tag": "OPPSTART",
+            "signature": false
+          },
+          {
+            "category": "core",
+            "name": "Bedriftsnettsted med modulært CMS",
+            "price": "48 000 NOK",
+            "desc": "Opptil 6 unike sider, WCAG 2.1 AA samsvarsgaranti, 10–14 dager",
+            "tag": "SIGNATURLEVERANSE",
+            "signature": true
+          },
+          {
+            "category": "core",
+            "name": "Komplett B2B-portal & flersidig skreddersøm",
+            "price": "79 000 NOK",
+            "desc": "Opptil 12 sider, avanserte integrasjoner, 14–21 dagers leveranse",
+            "tag": "ENTERPRISE",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Offisiell WCAG 2.1 AA tilgjengelighetsrapport",
+            "price": "7 500 NOK",
+            "desc": "Skriftlig rapport for fremvisning til Uu-tilsynet ved statlig kontroll",
+            "tag": "LOVPÅLAGT",
+            "signature": false
+          },
+          {
+            "category": "integrations",
+            "name": "Vipps Hurtigkasse & mobil checkout",
+            "price": "5 500 NOK",
+            "desc": "Sømløs mobilbetaling for B2B og registrering uten passordkaos",
+            "tag": "NORSK STACK",
+            "signature": false
+          },
+          {
+            "category": "integrations",
+            "name": "Fiken eller Tripletex toveis regnskapskobling",
+            "price": "6 200 NOK",
+            "desc": "Automatisk bilags- og kundesynkronisering direkte til regnskapet",
+            "tag": "API-KOBLING",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Tospråklig arkitektur (Norsk & Engelsk)",
+            "price": "8 900 NOK",
+            "desc": "Full lokalisering med dedikert undermappe-SEO for internasjonale kunder",
+            "tag": "EKSPORT",
+            "signature": false
+          },
+          {
+            "category": "core",
+            "name": "Teknisk migrering fra treg WordPress",
+            "price": "14 500 NOK",
+            "desc": "Full flytting av innhold, bilder og 301-omdirigeringer med null SEO-tap",
+            "tag": "MODERNISERING",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Core Web Vitals & Lokal Oslo-SEO sprint",
+            "price": "5 000 NOK",
+            "desc": "Under 1,2s mobil LCP-garanti og strukturert Schema.org søkedata",
+            "tag": "YTELSE",
+            "signature": false
+          }
+        ]
+      },
+      "videoShowcase": {
+        "kicker": "INGENIØRKUNST & WEBSTANDARDER",
+        "title": "Se hvordan vi optimaliserer for 60 bilder i sekundet",
+        "subtitle": "Kombinasjonen av ren semantisk struktur, komprimert media og responsiv typografi sikrer førsteklasses opplevelser på alle skjermer.",
+        "manifestBadge": "ARKITEKTURMANIFEST",
+        "testBadge": "Core Web Vitals Test: 99/100",
+        "productionBadge": "FRAMER-PRODUKSJON",
+        "auditBadge": "DOM- OG SKRIPTREVISJON",
+        "fpsBadge": "60 FPS CSS-ANIMASJONER",
+        "pullQuote": "«En nettside som krever mer enn 1,2 sekunder på mobilnettet taper over halvparten av de besøkende før første overskrift er lest.»",
+        "personName": "Henrik Lindqvist",
+        "personRole": "Sjefsutvikler & Framer-arkitekt, Oslo",
+        "photoCaption": "PRODUKSJONSMIKROSKOP: FRAMER-ARKITEKTUR I OSLO",
+        "stat1": "98 / 100",
+        "stat1Label": "Lighthouse mobilscore",
+        "stat2": "0,6 s",
+        "stat2Label": "First Contentful Paint",
+        "stat3": "100 %",
+        "stat3Label": "WCAG 2.1 AA samsvar",
+        "stat4": "0 kr",
+        "stat4Label": "Tvungne lisensgebyrer",
+        "linkText": "Utforsk vår tekniske arkitektur"
+      },
+      "process": {
+        "kicker": "STRUKTURERT FREMGANGSMÅTE",
+        "title": "14-dagers sprint fra start til lansering",
+        "subtitle": "En stram, strukturert prosess der du alltid vet nøyaktig hva som skjer på hvilken dag.",
+        "milestoneLabel": "Milepæl godkjent",
+        "steps": [
+          {
+            "step": "Dag 01–03",
+            "title": "Strategi og informasjonsarkitektur",
+            "description": "Vi kartlegger selskapets målgruppe, konkurrenter i Oslo og konverteringsmål. Wireframes og innholdsstruktur etableres uten forsinkelser."
+          },
+          {
+            "step": "Dag 04–07",
+            "title": "Visuell design i Framer & Webflow",
+            "description": "Vi utarbeider en skarp, skandinavisk designretning med kompromissløs typografi og responsivt layout tilpasset ditt merkevareuttrykk."
+          },
+          {
+            "step": "Dag 08–11",
+            "title": "Bygging, CMS og WCAG 2.1 AA-testing",
+            "description": "Nettsiden programmeres med ren struktur, fargekontraster etterprøves, og integrasjoner som Vipps, Cal.com eller Fiken kobles sammen."
+          },
+          {
+            "step": "Dag 12–14",
+            "title": "Kvalitetssikring, domene og lansering",
+            "description": "Lighthouse-ytelsestest, DNS-oppsett, SEO-validering og videoopplæring via Loom. Nettsiden overleveres med 100 % eierskap til deg."
+          }
+        ]
+      },
+      "wcag": {
+        "kicker": "LOVPÅLAGT TILGJENGELIGHET",
+        "title": "Beskytt bedriften mot gebyrer fra Uu-tilsynet",
+        "subtitle": "I Norge stiller forskrift om universell utforming strenge krav til alle virksomheter. Vi bygger inn WCAG 2.1 AA fra første kodelinje.",
+        "legalBadge": "Lovkrav i Norge",
+        "card1Title": "Kontrast og lesbarhet",
+        "card1Text": "Minst 4,5:1 kontrastforhold på all brødtekst og 3:1 på grafiske komponenter, slik at teksten forblir lesbar i all slags lys.",
+        "card2Title": "Fullstendig tastaturnavigasjon",
+        "card2Text": "Alle interaktive felt, menyer og skjemaer kan navigeres utelukkende med tabulatortasten med tydelige fokusindikatorer.",
+        "card3Title": "Skjermleservennlig semantikk",
+        "card3Text": "Korrekt hierarki av H1-H4, beskrivende ARIA-etiketter og alternative bildetekster som gir synshemmede en likeverdig opplevelse.",
+        "card4Title": "Dokumentert samsvarsrapport",
+        "card4Text": "Du mottar en ferdig utfylt tilgjengelighetserklæring som kan fremvises ved en eventuell kontroll fra statlige tilsynsorganer."
+      },
+      "team": {
+        "kicker": "STUDIOET",
+        "title": "Menneskene bak koden",
+        "subtitle": "Ingen fordyrende byråledd. Du samarbeider direkte med spesialistene som faktisk designer og utvikler løsningen.",
+        "location": "Oslo, Norge",
+        "members": [
+          {
+            "name": "Henrik Lindqvist",
+            "role": "Sjefsutvikler & Framer-spesialist",
+            "bio": "Over 7 års erfaring med frontend-arkitektur og ytelsesoptimalisering. Spesialist på Framer-komponenter og Core Web Vitals.",
+            "imageUrl": "https://images.pexels.com/photos/20181989/pexels-photo-20181989.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Mathias Eide",
+            "role": "Webflow-arkitekt & Systemintegrator",
+            "bio": "Ekspert på modulære CMS-løsninger, API-koblinger mot Vipps og Fiken, samt informasjonskapselfri webanalyse.",
+            "imageUrl": "https://images.pexels.com/photos/5483147/pexels-photo-5483147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Astrid Solberg",
+            "role": "UX-designer & WCAG-auditor",
+            "bio": "Spesialisert innen universell utforming og skandinavisk interaksjonsdesign. Sikrer at alle flater innfrir kravene til Uu-tilsynet.",
+            "imageUrl": "https://images.pexels.com/photos/8088370/pexels-photo-8088370.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Cecilie Berntsen",
+            "role": "Teknisk SEO & Konverteringsrådgiver",
+            "bio": "Strukturerer nettsider for lokal dominans i Oslo og utformer konverteringstrakter som forvandler klikk til kvalifiserte henvendelser.",
+            "imageUrl": "https://images.pexels.com/photos/30614308/pexels-photo-30614308.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          }
+        ]
+      },
+      "testimonials": {
+        "kicker": "DOKUMENTERTE RESULTATER",
+        "title": "Hva norske bedriftsledere sier om samarbeidet",
+        "subtitle": "Ekte tilbakemeldinger fra selskaper som byttet ut treg WordPress med lynrask Framer-infrastruktur.",
+        "plainRating": "5,0 AV 5,0 SAMLET VURDERING · 28 DOKUMENTERTE PROSJEKTER",
+        "items": [
+          {
+            "author": "Lars Kristian Holmen",
+            "role": "Daglig leder, Nordic Logistics AS",
+            "location": "Oslo Sentrum",
+            "quote": "Vår gamle WordPress-side brukte over 5 sekunder på å laste og ga knapt en eneste henvendelse. McRich Studio leverte et nytt Webflow-nettsted på 12 dager til avtalt fastpris. Mobilhenvendelsene våre økte med 64 % i løpet av de tre første ukene.",
+            "metric": "+64 % flere henvendelser",
+            "date": "Januar 2026",
+            "industry": "Logistikk & Transport"
+          },
+          {
+            "author": "Ingrid Sandvik",
+            "role": "Markedssjef, TechVenture Solutions",
+            "location": "Bærum",
+            "quote": "Vi leverer til offentlig sektor og behøvde dokumentert tilgjengelighet. Henrik og Astrid leverte en fullverdig WCAG 2.1 AA-revisjon og ny Framer-side. Alt var dokumentert til punkt og prikke, og siden laster lynraskt.",
+            "metric": "100 % godkjent tilgjengelighet",
+            "date": "Desember 2025",
+            "industry": "Programvare / SaaS"
+          },
+          {
+            "author": "Torstein Moe",
+            "role": "Gründer & CEO, Eiendomspartner Oslo",
+            "location": "Majorstuen",
+            "quote": "Det beste var å slippe byråkratiet med prosjektledere som ikke forstår kode. Her snakket vi direkte med utvikleren. Nettsiden var oppe på 9 dager, og vi administrerer den nå helt selv uten månedlige kostnader.",
+            "metric": "Lansert på 9 dager",
+            "date": "November 2025",
+            "industry": "Næringseiendom"
+          }
+        ]
+      },
+      "coverage": {
+        "kicker": "GEOGRAFISK REKKEVIDDE",
+        "title": "Lokal forankring i Oslo og Viken",
+        "subtitle": "Vi møter deg gjerne fysisk i Oslo eller via digital demonstrasjon i Cal.com uansett hvor i regionen du holder til.",
+        "activeOrder": "Aktivt oppdrag",
+        "zones": [
+          "Sentrum (Oslo)",
+          "Frogner",
+          "Grünerløkka",
+          "Majorstuen",
+          "Bærum",
+          "Asker",
+          "Lillestrøm",
+          "Drammen",
+          "Ski"
+        ],
+        "zoneNote": "Fysiske oppstartsmøter tilbys i hele Stor-Oslo, samt heldigital gjennomføring for øvrige deler av Norge med responstid under 24 timer."
+      },
+      "faq": {
+        "kicker": "OFTE STILTE SPØRSMÅL",
+        "title": "Alt du trenger å vite om samarbeidet",
+        "subtitle": "Klarhet og åpenhet rundt priser, opphavsrett, teknologi og levering.",
+        "items": [
+          {
+            "question": "Hva betyr fastprisgarantien i praksis?",
+            "answer": "Det beløpet som står i tilbudet er det eneste du betaler. Hvis vi bruker flere timer på å perfeksjonere en detalj eller løse en teknisk utfordring, dekkes dette i sin helhet av oss. Det forekommer aldri uventede fakturaer på overtid eller omfang."
+          },
+          {
+            "question": "Hvorfor bygger dere i Framer og Webflow i stedet for WordPress?",
+            "answer": "WordPress krever konstante plugin-oppdateringer, er sårbart for sikkerhetsbrudd og blir fort tregt på mobile enheter. Framer og Webflow genererer ultralett kode, har innebygd global lynrask hosting, og lar deg redigere tekster og bilder like enkelt som et Word-dokument."
+          },
+          {
+            "question": "Er vi bundet til en månedlig driftsavtale etter lansering?",
+            "answer": "Nei, overhodet ikke. Etter endt lansering overfører vi fullt eierskap av nettsiden og CMS-et til din bedrift. Du betaler kun den ordinære abonnementsprisen til Framer eller Webflow (vanligvis ca. 200–350 kr/måned for hosting). Vi tvinger deg ikke inn i dyre retainer-avtaler."
+          },
+          {
+            "question": "Hvordan sikrer dere at kravene fra Uu-tilsynet overholdes?",
+            "answer": "Vi tester alle fargekontraster, tastaturnavigasjon og skjermleserstruktur systematisk mot WCAG 2.1 AA-standarden. Ved overlevering får du en dokumentert sjekkliste som bekrefter at nettstedet oppfyller kravene i forskrift om universell utforming."
+          },
+          {
+            "question": "Kan vi integrere Vipps og norske regnskapssystemer?",
+            "answer": "Ja. Vi har ferdige integrasjonsmønstre for Vipps Hurtigkasse, Fiken, Tripletex og Cal.com. Henvendelser og transaksjoner kobles automatisk til dine eksisterende verktøy uten manuell klipping og liming."
+          },
+          {
+            "question": "Hva trenger dere fra oss før vi kan starte 14-dagers sprinten?",
+            "answer": "Vi trenger din logo, eventuelle eksisterende merkevarefarger, og tilgang til domenet. Dersom du mangler ferdige tekster, hjelper vi deg med å strukturere budskapet under den innledende strategifasen de første 48 timene."
+          },
+          {
+            "question": "Hva skjer dersom vi trenger endringer etter at nettsiden er lansert?",
+            "answer": "Alle pakker inkluderer 14 til 60 dagers teknisk garanti der eventuelle justeringer og spørsmål håndteres kostnadsfritt. I tillegg leverer vi en skreddersydd Loom-videoopplæring som viser nøyaktig hvordan du gjør fremtidige oppdateringer selv."
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "BESTILLING & REVISJON",
+        "title": "Bestill en uforpliktende nettsiderevisjon",
+        "subtitle": "Send oss din nåværende nettadresse eller prosjektbeskrivelse. Vi leverer en konkret analyse av lastetid, WCAG-status og et fastpristilbud innen 24 timer.",
+        "formName": "Ditt fulle navn",
+        "formCompany": "Bedriftsnavn",
+        "formEmail": "E-postadresse",
+        "formPhone": "Telefonnummer",
+        "formUrl": "Nåværende nettsideadresse (valgfritt)",
+        "formBudget": "Ønsket budsjettramme",
+        "budgetOptions": [
+          "20 000 – 35 000 kr (Landingsside)",
+          "35 000 – 60 000 kr (Bedriftsnettsted)",
+          "60 000 – 100 000 kr (Skreddersøm & integrasjoner)"
+        ],
+        "formMessage": "Kort om prosjektet og ønsket lanseringsdato",
+        "submit": "Send forespørsel om nettsidegjennomgang",
+        "sending": "Sender inn forespørsel...",
+        "successTitle": "Takk! Forespørselen er mottatt.",
+        "successMessage": "Vi gjennomgår nettsiden din og kontakter deg innen neste virkedag med en konkret analyse og tilbud.",
+        "slaNote": "100 % uforpliktende · Svar innen 24 timer på virkedager · Direkte kontakt med seniorutvikler",
+        "directTitle": "Direkte tilgang til seniorutvikler",
+        "addressLabel": "ADRESSE:",
+        "emailLabel": "DIREKTE E-POST:",
+        "legalSecurityLabel": "JURIDISK SIKKERHET:",
+        "legalSecurityText": "Fastprisavtale med signatur før oppstart. Ingen timebasert etterfakturering eller skjulte konsulenthonorarer."
+      },
+      "footer": {
+        "wordmark": "MCRICH",
+        "benchmarkLine": "WCAG 2.1 AA · 90+ PageSpeed Benchmark",
+        "navHeading": "NAVIGASJON",
+        "contactHeading": "KONTAKT & ATELIER",
+        "linksHeading": "DIREKTE LINKER",
+        "linkLinkedin": "LinkedIn",
+        "linkGithub": "GitHub",
+        "linkCal": "Cal.com Booking",
+        "legal": "© 2026 McRich Studio. Alle rettigheter forbeholdt. Org.nr: NO 933 481 024 MVA.",
+        "brandVoiceLine": "Spesialisert webdesign og utvikling for ambisiøse B2B-virksomheter.",
+        "madeBy": "Utviklet av",
+        "devName": "McRich.dev",
+        "devUrl": "https://makarich.framer.website",
+        "osloBadge": "Laget med stolthet i Oslo, Norge"
+      }
+    },
+    "en": {
+      "meta": {
+        "title": "McRich Studio — Lightning-fast Framer & Webflow Websites | Oslo",
+        "description": "Turnkey B2B websites at a fixed price. Launched in 10–14 days with guaranteed WCAG 2.1 AA accessibility and 90+ PageSpeed score.",
+        "lang": "en"
+      },
+      "brand": {
+        "name": "McRich Studio",
+        "wordmark": "MCRICH",
+        "submark": "OSLO STUDIO",
+        "tagline": "Web Design & Development",
+        "city": "Oslo",
+        "founded": "2024",
+        "email": "ishop.inform@gmail.com",
+        "address": "Oslo",
+        "orgNumber": "NO 933 481 024 MVA"
+      },
+      "nav": {
+        "services": "Services",
+        "comparison": "Why Us",
+        "calculator": "Configurator",
+        "packages": "Pricing & Packages",
+        "process": "Process",
+        "wcag": "Accessibility",
+        "team": "Studio",
+        "faq": "FAQ",
+        "contact": "Contact",
+        "cta": "Request Website Audit",
+        "menuOpen": "Open menu",
+        "menuClose": "Close menu",
+        "menuCloseLabel": "CLOSE ✕",
+        "switchLang": "Norsk",
+        "langLabel": "LANGUAGE / SPRÅK:"
+      },
+      "hero": {
+        "watermark": "OSLO",
+        "kicker": "FOUNDED 2024 · OSLO",
+        "headlinePart1": "Ultra-fast B2B websites.",
+        "headlineItalic": "Launched in 14 days.",
+        "headlinePart2": "Zero agency bureaucracy.",
+        "lede": "We design and build high-performance websites in Framer and Webflow for B2B enterprises and fast-growing startups in Oslo. Turnkey delivery on a guaranteed fixed fee, full WCAG 2.1 AA compliance, and direct collaboration with the senior engineer.",
+        "ctaPrimary": "Request Free Website Audit",
+        "ctaSecondary": "View Packages & Specifications",
+        "metaResponse": "RESPONSE TIME: WITHIN 24 HOURS",
+        "metaAddress": "LOCATION: OSLO",
+        "metaScore": "COMPLIANCE: 100% WCAG 2.1 AA AUDITED",
+        "flankLeft": "TURNKEY DEPLOYMENT // 100% CODE OWNERSHIP",
+        "flankRight": "DIRECT DIALOG // SENIOR FRAMER ARCHITECT",
+        "sealText": "MCRICH STUDIO OSLO · FIXED PRICE · 14 DAYS · ",
+        "auditBenchmark": "AUDITED BENCHMARK",
+        "verified": "VERIFIED",
+        "floatingCardTitle": "Guaranteed Performance",
+        "floatingCardMetric": "98 / 100",
+        "floatingCardSub": "Lighthouse mobile score on all delivered sites",
+        "fcpLabel": "First Contentful Paint:",
+        "lcpLabel": "Largest Contentful Paint:",
+        "wcagContrastLabel": "WCAG 2.1 AA Contrast:",
+        "scrollDown": "Scroll for architecture",
+        "tickerPhrase": "100% WCAG 2.1 AA COMPLIANCE · 90+ LIGHTHOUSE MOBILE SCORE · 10–14 DAYS FIXED SPRINT · ZERO AGENCY BUREAUCRACY · DIRECT DEVELOPER CONTACT · NO MONTHLY LOCK-INS · "
+      },
+      "interstitials": {
+        "tickerItems": [
+          "WCAG 2.1 AA COMPLIANCE",
+          "LIGHTHOUSE 98/100",
+          "FIXED PRICE CONTRACT",
+          "10–14 DAY SPRINTS",
+          "DIRECT SENIOR DEVELOPER"
+        ],
+        "hairlineStandard": "— VERIFIED QUALITY BENCHMARK IN THE OSLO MARKET —",
+        "quoteStatement": "«A website taking over 2 seconds to load loses up to 40% of prospective B2B inquiries on the very first click.»",
+        "quoteAuthor": "SOURCE: GOOGLE CORE WEB VITALS BENCHMARK REPORT 2025/2026",
+        "legalStandard": "NORWEGIAN ACCESSIBILITY REGULATION § 4 · STANDARD NS-EN 301 549 · UU-TILSYNET",
+        "coverageTitle": "GREATER OSLO REGION:",
+        "coverageZones": [
+          "CITY CENTER",
+          "FROGNER",
+          "BÆRUM",
+          "ASKER",
+          "LILLESTRØM",
+          "SKI",
+          "DRAMMEN"
+        ]
+      },
+      "proof": {
+        "kicker": "NORWEGIAN ENGINEERING BENCHMARK",
+        "title": "Verifiable metrics, no corporate fluff",
+        "subtitle": "Every single project is backed by legally binding performance criteria.",
+        "quote": "McRich Studio cut our page load time from 4.8 to 0.9 seconds. Our mobile conversion volume rose by 64% within three weeks, without a single scope invoice.",
+        "quoteAuthor": "Lars Kristian Holmen",
+        "quoteRole": "Managing Director, Nordic Logistics AS — Oslo City Center",
+        "ratingText": "5.0 OUT OF 5.0 · BASED ON 28 DOCUMENTED SPRINT RELEASES IN OSLO",
+        "stat1Value": "14",
+        "stat1Unit": "days",
+        "stat1Label": "Maximum delivery timeline from design sign-off to launch",
+        "stat2Value": "95+",
+        "stat2Unit": "score",
+        "stat2Label": "Measured Google PageSpeed Core Web Vitals on mobile",
+        "stat3Value": "100%",
+        "stat3Unit": "WCAG",
+        "stat3Label": "Full compliance with Norwegian accessibility regulations",
+        "stat4Value": "0 NOK",
+        "stat4Unit": "hidden fees",
+        "stat4Label": "No hourly rate creep or forced monthly support lock-ins"
+      },
+      "services": {
+        "kicker": "CORE CAPABILITIES",
+        "title": "Direct web engineering without agency middlemen",
+        "subtitle": "We exclusively utilize modern web frameworks that deliver total client autonomy and blazing load times.",
+        "activeSpec": "ACTIVE SPECIFICATION",
+        "ctaCalculate": "Calculate cost for this scope",
+        "items": [
+          {
+            "id": "framer",
+            "title": "Conversion-Driven Framer Landing Pages",
+            "description": "Engineered for high-stakes B2B marketing campaigns and technology startups seeking smooth micro-interactions without codebase bloat.",
+            "specs": "7–10 days delivery · Form integration · 98+ PageSpeed",
+            "tag": "Most Popular"
+          },
+          {
+            "id": "webflow",
+            "title": "Enterprise B2B Websites in Webflow",
+            "description": "Complete corporate digital ecosystems with modular CMS structures enabling marketing teams to update content in seconds.",
+            "specs": "Up to 15 unique templates · Clean CMS hierarchy · Zero lock-in",
+            "tag": "B2B Standard"
+          },
+          {
+            "id": "wcag",
+            "title": "Accessibility Auditing (WCAG 2.1 AA)",
+            "description": "Guarantees regulatory compliance under the Norwegian Digital Accessibility Authority (Uu-tilsynet) with audited contrast ratios and keyboard flow.",
+            "specs": "Full compliance report · Protection against fines · Built-in",
+            "tag": "Mandatory"
+          },
+          {
+            "id": "migration",
+            "title": "WordPress to Framer/Webflow Migration",
+            "description": "We migrate your content, assets, and SEO ranking architecture from heavy WordPress setups to clean, maintenance-free web infrastructure.",
+            "specs": "301 redirects preserved · 4x faster page speed · Zero plugin vulnerabilities",
+            "tag": "Modernization"
+          },
+          {
+            "id": "integrations",
+            "title": "Vipps, Fiken & Tripletex Integration",
+            "description": "Native hook-ups for Norwegian checkout and accounting flows, Cal.com scheduling, and instant CRM notifications.",
+            "specs": "Vipps Express Checkout · Auto invoicing · Realtime Cal.com sync",
+            "tag": "Norwegian Stack"
+          },
+          {
+            "id": "speed",
+            "title": "Core Web Vitals & Oslo Local SEO",
+            "description": "Advanced technical optimization with next-gen image compression, inlined typography, and rich Schema.org search markup.",
+            "specs": "Sub-1.2s Largest Contentful Paint · Schema.org metadata · Google Profile sync",
+            "tag": "Performance"
+          }
+        ]
+      },
+      "comparison": {
+        "kicker": "BENCHMARKING",
+        "title": "Traditional Oslo Agency vs. McRich Studio",
+        "subtitle": "Why modern Norwegian companies favor direct developer sprints over inflated agency bureaucracy.",
+        "colAgency": "Traditional Oslo Agency",
+        "colMcrich": "McRich Studio (Fixed Fee)",
+        "criterion": "Criterion",
+        "traditionalLabel": "Traditional:",
+        "mcrichLabel": "McRich:",
+        "points": [
+          {
+            "label": "Delivery Speed",
+            "agency": "3 to 5 months with endless recurring status calls and delays",
+            "mcrich": "Guaranteed 10 to 14 days from kickoff to live deployment"
+          },
+          {
+            "label": "Pricing Model",
+            "agency": "1 800 NOK/hr with billable hours scope-creep",
+            "mcrich": "100% predictable fixed fee locked in written agreement"
+          },
+          {
+            "label": "Primary Contact",
+            "agency": "Junior account managers relaying messages back and forth",
+            "mcrich": "Direct daily access to the senior engineer building your site"
+          },
+          {
+            "label": "Tech Foundation",
+            "agency": "Bloated WordPress themes with 30+ vulnerable plugins",
+            "mcrich": "Lean Framer/Webflow code with zero plugin vulnerabilities"
+          },
+          {
+            "label": "Monthly Lock-in",
+            "agency": "Forced maintenance retainer contracts from 5 000 NOK/mo",
+            "mcrich": "0 NOK retainer fees. You own 100% of your codebase and CMS"
+          },
+          {
+            "label": "WCAG 2.1 AA Guarantee",
+            "agency": "Billed as an expensive add-on right before launch",
+            "mcrich": "Included standard on every build with written certification"
+          }
+        ]
+      },
+      "calculator": {
+        "kicker": "PROJECT CONFIGURATOR",
+        "title": "Estimate your investment transparently",
+        "subtitle": "Fixed pricing derived from actual engineering requirements. Move the slider to calculate the scope in NOK excl. VAT.",
+        "pagesLabel": "Total unique page templates:",
+        "pageCountUnit": "pages",
+        "sliderMin": "1 page (Landing)",
+        "sliderMid": "6 pages (Corporate)",
+        "sliderMax": "16 pages (Portal)",
+        "integrationsHeading": "Select specialized modules and integrations:",
+        "addOption": "ADD MODULE",
+        "selectedOption": "SELECTED",
+        "options": {
+          "wcag": "Official WCAG 2.1 AA Compliance Certification (+7 500 NOK)",
+          "vipps": "Vipps Express Checkout Integration (+5 500 NOK)",
+          "fiken": "Fiken or Tripletex Accounting Sync (+6 200 NOK)",
+          "bilingual": "Bilingual Setup (Norwegian & English) (+8 900 NOK)",
+          "cms": "Custom CMS Architecture + Video Training (+6 800 NOK)",
+          "seo": "Oslo Local SEO Architecture Pack (+5 000 NOK)"
+        },
+        "fixedEstimateBadge": "FIXED FEE ESTIMATE (EXCL. VAT)",
+        "summaryTitle": "Estimated Project Investment",
+        "totalEstimateLabel": "TOTAL ESTIMATED INVESTMENT:",
+        "ownershipNote": "Includes 100% code ownership and full CMS rights",
+        "turnaroundLabel": "Turnaround time:",
+        "turnaroundVal": "10–14 business days",
+        "agreementLabel": "Guarantee:",
+        "agreementVal": "Fixed fee without overtime",
+        "uuLabel": "Legal compliance:",
+        "uuVal": "WCAG 2.1 AA",
+        "fixedPriceGuarantee": "Binding fixed price in contract · Zero hourly billing creep",
+        "cta": "Lock in this estimate with a 15-min discovery call"
+      },
+      "packages": {
+        "kicker": "FIXED PACKAGES & SPECIFICATIONS",
+        "title": "Predictable budgets. Zero hidden surprises.",
+        "subtitle": "Choose the package tailored to your business maturity, or review the complete itemized scope schedule below.",
+        "badgeMvp": "STARTUP & MVP",
+        "badgeGrowth": "GROWTH BUSINESS",
+        "badgeEnterprise": "ENTERPRISE & VIPPS",
+        "recommended": "Most Popular for B2B",
+        "pkg1Title": "Oslo Startup Launch",
+        "pkg1Price": "22 500 NOK",
+        "pkg1Duration": "Delivery: 7–10 days",
+        "pkg1Desc": "High-converting single-page website on Framer featuring lead generation forms and responsive mobile polish.",
+        "pkg1Features": [
+          "One full conversion-focused landing page",
+          "Responsive layouts for mobile, tablet, and 4K displays",
+          "Lead capture form with instant email alerts",
+          "Minimum 4.5:1 contrast ratios and full keyboard navigation",
+          "Loom video guide for effortless text and asset editing",
+          "14 days post-launch technical warranty"
+        ],
+        "pkg2Title": "Business Growth",
+        "pkg2Price": "48 000 NOK",
+        "pkg2Duration": "Delivery: 10–14 days",
+        "pkg2Desc": "Corporate website of up to 6 pages with full accessibility compliance and 90+ Google PageSpeed score.",
+        "pkg2Features": [
+          "Up to 6 unique pages (Home, Services, About, Blog, Contact, Cases)",
+          "100% compliance with Norwegian WCAG 2.1 AA standards",
+          "90+ audited PageSpeed score in Lighthouse",
+          "Modular CMS for news, insights, and case studies",
+          "Local SEO architecture for the Oslo metro area",
+          "30 days technical support and private video onboarding"
+        ],
+        "pkg3Title": "Scandinavian Custom",
+        "pkg3Price": "79 000 NOK",
+        "pkg3Duration": "Delivery: 14–21 days",
+        "pkg3Desc": "Bespoke digital platform up to 12 pages with Vipps checkout, accounting sync, and complete bilingual structure.",
+        "pkg3Features": [
+          "Up to 12 pages with bespoke layouts and micro-animations",
+          "Vipps Express Checkout and Fiken/Tripletex sync",
+          "Full bilingual localization (Norwegian and English)",
+          "Cal.com or Calendly real-time appointment scheduler",
+          "GDPR-compliant cookie-free analytics setup",
+          "60 days priority technical warranty"
+        ],
+        "selectPkg": "Select this package",
+        "breakdownKicker": "ITEMIZED SPECIFICATIONS CATALOG",
+        "breakdownTitle": "Comprehensive scope schedule and custom modules",
+        "catAll": "All Modules",
+        "catCore": "Core Platforms",
+        "catIntegrations": "Integrations",
+        "catCompliance": "Standards & Speed",
+        "footnote": "All figures in NOK excl. 25% VAT. 50% due at project kickoff and 50% upon verified launch sign-off.",
+        "secondaryCta": "Request complete technical scope document",
+        "lineItems": [
+          {
+            "category": "core",
+            "name": "Single-page Framer landing page",
+            "price": "22 500 NOK",
+            "desc": "Conversion-optimized single-page architecture, 7–10 days sprint",
+            "tag": "STARTUP",
+            "signature": false
+          },
+          {
+            "category": "core",
+            "name": "Corporate website with modular CMS",
+            "price": "48 000 NOK",
+            "desc": "Up to 6 unique pages, WCAG 2.1 AA compliance warranty, 10–14 days",
+            "tag": "SIGNATURE DELIVERY",
+            "signature": true
+          },
+          {
+            "category": "core",
+            "name": "Comprehensive B2B portal & multi-page bespoke architecture",
+            "price": "79 000 NOK",
+            "desc": "Up to 12 pages, advanced integrations, 14–21 days delivery",
+            "tag": "ENTERPRISE",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Official WCAG 2.1 AA accessibility report",
+            "price": "7 500 NOK",
+            "desc": "Written report for presentation to state accessibility authorities",
+            "tag": "MANDATORY",
+            "signature": false
+          },
+          {
+            "category": "integrations",
+            "name": "Vipps Express Checkout & mobile checkout",
+            "price": "5 500 NOK",
+            "desc": "Frictionless mobile payments and registration for modern Norwegian B2B",
+            "tag": "NORWEGIAN STACK",
+            "signature": false
+          },
+          {
+            "category": "integrations",
+            "name": "Fiken or Tripletex bidirectional accounting synchronization",
+            "price": "6 200 NOK",
+            "desc": "Automatic ledger and customer record synchronization directly into accounting",
+            "tag": "API INTEGRATION",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Bilingual architecture (Norwegian & English)",
+            "price": "8 900 NOK",
+            "desc": "Full localization with dedicated sub-directory SEO for foreign clients",
+            "tag": "EXPORT",
+            "signature": false
+          },
+          {
+            "category": "core",
+            "name": "Technical migration from sluggish WordPress",
+            "price": "14 500 NOK",
+            "desc": "Complete migration of copy, assets and 301 redirects with zero SEO drop",
+            "tag": "MODERNIZATION",
+            "signature": false
+          },
+          {
+            "category": "compliance",
+            "name": "Core Web Vitals & Local Oslo SEO sprint",
+            "price": "5 000 NOK",
+            "desc": "Sub-1.2s mobile LCP guarantee and structured Schema.org search markup",
+            "tag": "PERFORMANCE",
+            "signature": false
+          }
+        ]
+      },
+      "videoShowcase": {
+        "kicker": "ENGINEERING DEMO & STANDARDS",
+        "title": "See our 60 FPS responsive interfaces in action",
+        "subtitle": "Combining semantic hierarchy, modern compression, and responsive typography guarantees optimal speed across all devices.",
+        "manifestBadge": "ARCHITECTURE MANIFESTO",
+        "testBadge": "Core Web Vitals Test: 99/100",
+        "productionBadge": "FRAMER PRODUCTION",
+        "auditBadge": "DOM & SCRIPT AUDIT",
+        "fpsBadge": "60 FPS CSS ANIMATIONS",
+        "pullQuote": "«A website taking more than 1.2 seconds over mobile networks loses more than half its prospects before the primary heading is rendered.»",
+        "personName": "Henrik Lindqvist",
+        "personRole": "Lead Engineer & Framer Architect, Oslo",
+        "photoCaption": "PRODUCTION INSPECTION: FRAMER ARCHITECTURE IN OSLO",
+        "stat1": "98 / 100",
+        "stat1Label": "Lighthouse Mobile Score",
+        "stat2": "0.6s",
+        "stat2Label": "First Contentful Paint",
+        "stat3": "100%",
+        "stat3Label": "WCAG 2.1 AA Compliance",
+        "stat4": "0 NOK",
+        "stat4Label": "Monthly Retainer Fees",
+        "linkText": "Explore our technical architecture"
+      },
+      "process": {
+        "kicker": "STRUCTURED ROADMAP",
+        "title": "14-day sprint from kickoff to live deployment",
+        "subtitle": "A disciplined, step-by-step roadmap where you always know what milestone is being delivered.",
+        "milestoneLabel": "Milestone verified",
+        "steps": [
+          {
+            "step": "Days 01–03",
+            "title": "Strategy & Information Hierarchy",
+            "description": "We analyze your audience, Oslo competitors, and key conversion paths. Wireframes and copy structure are locked in immediately."
+          },
+          {
+            "step": "Days 04–07",
+            "title": "Visual Design in Framer & Webflow",
+            "description": "We establish a Scandinavian design language with high-contrast typography and fluid layouts matching your brand voice."
+          },
+          {
+            "step": "Days 08–11",
+            "title": "Development, CMS & WCAG Testing",
+            "description": "The site is built with semantic code, verified for accessibility standards, and connected with Vipps, Cal.com, or Fiken."
+          },
+          {
+            "step": "Days 12–14",
+            "title": "Audit, DNS Setup & Launch",
+            "description": "Rigorous Lighthouse audit, DNS configuration, search console indexing, and private Loom tutorial delivery with 100% client ownership."
+          }
+        ]
+      },
+      "wcag": {
+        "kicker": "LEGAL ACCESSIBILITY",
+        "title": "Protect your enterprise against state fines",
+        "subtitle": "In Norway, public regulations mandate universal accessibility. We build WCAG 2.1 AA compliance into every template.",
+        "legalBadge": "Legal mandate in Norway",
+        "card1Title": "Contrast & Typography",
+        "card1Text": "Minimum 4.5:1 contrast ratio across all body text ensuring readability in high-glare environments.",
+        "card2Title": "Full Keyboard Usability",
+        "card2Text": "Every button, accordion, and interactive form is 100% accessible via the Tab key with clear focus rings.",
+        "card3Title": "Screen Reader Architecture",
+        "card3Text": "Strict H1–H4 structure, descriptive ARIA attributes, and descriptive alt texts giving visually impaired users an equal experience.",
+        "card4Title": "Documented Audit Report",
+        "card4Text": "You receive a signed accessibility statement ready to present to state regulatory bodies upon inspection."
+      },
+      "team": {
+        "kicker": "THE STUDIO",
+        "title": "The engineers behind the build",
+        "subtitle": "Zero account managers. Direct collaboration with the senior engineers who actually craft and code your product.",
+        "location": "Oslo, Norway",
+        "members": [
+          {
+            "name": "Henrik Lindqvist",
+            "role": "Lead Engineer & Framer Specialist",
+            "bio": "Over 7 years of frontend engineering experience. Specializes in Framer architectures and Core Web Vitals optimization.",
+            "imageUrl": "https://images.pexels.com/photos/20181989/pexels-photo-20181989.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Mathias Eide",
+            "role": "Webflow Architect & Systems Engineer",
+            "bio": "Expert in scalable CMS design, API pipelines for Vipps and Fiken, and cookieless GDPR analytics.",
+            "imageUrl": "https://images.pexels.com/photos/5483147/pexels-photo-5483147.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Astrid Solberg",
+            "role": "UX Designer & WCAG Auditor",
+            "bio": "Specialized in universal design and Scandinavian interaction aesthetics. Ensures all interfaces meet Uu-tilsynet criteria.",
+            "imageUrl": "https://images.pexels.com/photos/8088370/pexels-photo-8088370.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          },
+          {
+            "name": "Cecilie Berntsen",
+            "role": "Technical SEO & Conversion Strategist",
+            "bio": "Structures websites for search dominance across the Oslo metropolitan area and crafts high-intent conversion funnels.",
+            "imageUrl": "https://images.pexels.com/photos/30614308/pexels-photo-30614308.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
+          }
+        ]
+      },
+      "testimonials": {
+        "kicker": "VERIFIED CASE STUDIES",
+        "title": "What Norwegian founders say about our work",
+        "subtitle": "Real feedback from businesses that replaced slow WordPress setups with lightning-fast Framer infrastructure.",
+        "plainRating": "5.0 OUT OF 5.0 AGGREGATE SCORE · 28 DOCUMENTED PROJECTS",
+        "items": [
+          {
+            "author": "Lars Kristian Holmen",
+            "role": "Managing Director, Nordic Logistics AS",
+            "location": "Oslo City Center",
+            "quote": "Our legacy WordPress platform took over 5 seconds to load and converted almost zero mobile visitors. McRich Studio delivered a brand new Webflow platform in 12 days on a fixed contract. Our inbound leads rose by 64% in the first three weeks.",
+            "metric": "+64% more inbound leads",
+            "date": "January 2026",
+            "industry": "Logistics & Transport"
+          },
+          {
+            "author": "Ingrid Sandvik",
+            "role": "Head of Marketing, TechVenture Solutions",
+            "location": "Bærum",
+            "quote": "As an enterprise supplying the public sector, we were terrified of accessibility non-compliance penalties. Henrik and Astrid performed a full WCAG 2.1 AA audit and delivered a stunning Framer site on schedule.",
+            "metric": "100% verified accessibility",
+            "date": "December 2025",
+            "industry": "Software / SaaS"
+          },
+          {
+            "author": "Torstein Moe",
+            "role": "Founder & CEO, Eiendomspartner Oslo",
+            "location": "Majorstuen",
+            "quote": "The biggest relief was skipping the bureaucracy of project coordinators. We spoke directly with the developer. The site was live in 9 days and we manage every word ourselves with zero monthly fees.",
+            "metric": "Launched in 9 days",
+            "date": "November 2025",
+            "industry": "Commercial Real Estate"
+          }
+        ]
+      },
+      "coverage": {
+        "kicker": "SERVICE REGION",
+        "title": "On-site presence in Oslo and Viken",
+        "subtitle": "We meet you in person in Oslo or hold real-time video demonstrations via Cal.com anywhere across Norway.",
+        "activeOrder": "Active engagement",
+        "zones": [
+          "Central Oslo",
+          "Frogner",
+          "Grünerløkka",
+          "Majorstuen",
+          "Bærum",
+          "Asker",
+          "Lillestrøm",
+          "Drammen",
+          "Ski"
+        ],
+        "zoneNote": "Physical kickoff workshops available throughout Greater Oslo, with full remote delivery for the rest of Norway under 24-hour response SLAs."
+      },
+      "faq": {
+        "kicker": "FREQUENTLY ASKED QUESTIONS",
+        "title": "Everything you need to know about our sprints",
+        "subtitle": "Absolute transparency regarding budgets, intellectual property, tech stack, and warranties.",
+        "items": [
+          {
+            "question": "What does the fixed price guarantee mean in practice?",
+            "answer": "The sum stated in our proposal is the exact and only amount you pay. If we require extra hours to perfect an interaction or resolve a technical edge case, that cost is absorbed entirely by us. Zero unexpected invoices."
+          },
+          {
+            "question": "Why build with Framer and Webflow instead of WordPress?",
+            "answer": "WordPress requires perpetual plugin updates, presents security vulnerabilities, and slows down drastically on mobile. Framer and Webflow output clean code, have built-in global hosting, and let you edit text as easily as a Word document."
+          },
+          {
+            "question": "Are we tied to a monthly maintenance contract after launch?",
+            "answer": "No. Once deployed, 100% of the project ownership is transferred to your company. You only pay standard hosting fees directly to Framer or Webflow (approx. 200–350 NOK/mo). We never lock you into forced retainer fees."
+          },
+          {
+            "question": "How do you guarantee Norwegian WCAG 2.1 AA compliance?",
+            "answer": "We audit all color contrasts, keyboard focus rings, and screen reader semantic structures against official WCAG criteria. Upon handover you receive an audit checklist ready for statutory review."
+          },
+          {
+            "question": "Can we integrate Vipps and Norwegian accounting software?",
+            "answer": "Yes. We maintain pre-built architectures for Vipps Express Checkout, Fiken, Tripletex, and Cal.com. Form submissions and transactions sync straight to your operations without manual work."
+          },
+          {
+            "question": "What do you need from us before starting the 14-day sprint?",
+            "answer": "We need your logo, brand guidelines, and domain DNS access. If your copy is not fully written, we help structure your value proposition during the initial 48-hour strategy phase."
+          },
+          {
+            "question": "What happens if we need adjustments after launch?",
+            "answer": "All packages include a 14 to 60 day warranty covering any post-launch bug fixes or technical questions free of charge. You also get a personalized Loom walkthrough teaching you how to update everything."
+          }
+        ]
+      },
+      "contact": {
+        "kicker": "INQUIRY & AUDIT",
+        "title": "Request a non-binding website audit",
+        "subtitle": "Send us your current website URL or brief. We will analyze your speed, WCAG status, and provide a binding fixed-fee proposal within 24 hours.",
+        "formName": "Full Name",
+        "formCompany": "Company Name",
+        "formEmail": "Work Email",
+        "formPhone": "Phone Number",
+        "formUrl": "Current Website URL (optional)",
+        "formBudget": "Estimated Budget Bracket",
+        "budgetOptions": [
+          "20 000 – 35 000 NOK (Landing Page)",
+          "35 000 – 60 000 NOK (Corporate Website)",
+          "60 000 – 100 000 NOK (Custom & Integrations)"
+        ],
+        "formMessage": "Briefly describe your goals and desired launch deadline",
+        "submit": "Request Website Audit",
+        "sending": "Submitting inquiry...",
+        "successTitle": "Thank you! Inquiry received.",
+        "successMessage": "We will review your project and contact you within one business day with a detailed audit and fixed quote.",
+        "slaNote": "100% non-binding · Guaranteed response within 24 hours on business days · Direct engineer contact",
+        "directTitle": "Direct access to senior developer",
+        "addressLabel": "ADDRESS:",
+        "emailLabel": "DIRECT EMAIL:",
+        "legalSecurityLabel": "LEGAL SECURITY:",
+        "legalSecurityText": "Fixed price contract with formal signature prior to commencement. Zero hourly overruns or hidden agency consulting markups."
+      },
+      "footer": {
+        "wordmark": "MCRICH",
+        "benchmarkLine": "WCAG 2.1 AA · 90+ PageSpeed Benchmark",
+        "navHeading": "NAVIGATION",
+        "contactHeading": "CONTACT & STUDIO",
+        "linksHeading": "DIRECT LINKS",
+        "linkLinkedin": "LinkedIn",
+        "linkGithub": "GitHub",
+        "linkCal": "Cal.com Booking",
+        "legal": "© 2026 McRich Studio. All rights reserved. Org.no: NO 933 481 024 MVA.",
+        "brandVoiceLine": "Specialized web design and engineering for ambitious B2B companies.",
+        "madeBy": "Developed by",
+        "devName": "McRich.dev",
+        "devUrl": "https://makarich.framer.website",
+        "osloBadge": "Crafted with pride in Oslo, Norway"
+      }
+    }
+  }
+}

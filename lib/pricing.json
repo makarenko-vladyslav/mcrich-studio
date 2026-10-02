@@ -1,0 +1,27 @@
+{
+  "basePrices": {
+    "landing": 22500,
+    "company": 48000,
+    "tailored": 79000
+  },
+  "pageRates": {
+    "single": 0,
+    "standard": 2800,
+    "complex": 4500
+  },
+  "additions": {
+    "wcagAudit": 7500,
+    "vippsIntegration": 5500,
+    "fikenTripletexSync": 6200,
+    "bilingual": 8900,
+    "cmsCustom": 6800,
+    "seoOsloPack": 5000
+  },
+  "currency": "NOK",
+  "vatPercentage": 25,
+  "turnaroundDays": {
+    "landing": "7–10 dager",
+    "company": "10–14 dager",
+    "tailored": "14–21 dager"
+  }
+}

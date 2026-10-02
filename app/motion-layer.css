@@ -1,0 +1,100 @@
+/**
+ * Motion layer — reveal on scroll for a whole site, without touching a line of JSX.
+ *
+ * Three attempts at doing this through the markup failed for the same reason:
+ * they depended on how the model happened to write the component. A directive
+ * asking for varied motion produced none. Parameterised primitives were never
+ * given props. Rewriting `<Reveal>` calls with regular expressions only reached
+ * one call site in twenty-seven, because the rest wrap a single container — which
+ * is exactly why the movement read as "the whole section, not the content in it".
+ *
+ * So this works a level below. `components/motion-layer.tsx` numbers each child
+ * it may animate and marks it seen when it is reached; CSS brings them in one
+ * after another. Whatever the model wrote — a `<Reveal>`, a bare `<div>`, three
+ * nested wrappers — the cards inside a grid still arrive one at a time.
+ *
+ * Tuning lives in custom properties, so a niche changes the feel of an entire
+ * site by rewriting four values rather than every file.
+ */
+
+:root {
+  /* How long one element takes to arrive. Long enough to be followed: movement
+     too quick to track reads as no movement at all — measured the hard way, by
+     shortening a barbershop's entrances to 0.48s and losing them entirely. */
+  --motion-duration: 0.85s;
+  /* Distance travelled. Past ~40px it stops being a reveal and becomes a slide deck. */
+  --motion-shift: 28px;
+  /* Gap between siblings. This is what makes content unfold instead of land. */
+  --motion-stagger: 0.08s;
+  /* Temperament. The curve carries the character — never the duration. */
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  /* Hard ceiling on the wait itself, not on the position. Capping the index was
+     not enough: a wave of seven quotes at 0.14s apart left the last one sitting
+     still for 0.84s after it was already on screen, which reads as late rather
+     than as rhythm. Nothing visible waits longer than this. */
+  --motion-delay-max: 0.32s;
+}
+
+/*
+ * Hidden only once JavaScript has marked the element — never by the stylesheet
+ * alone. A page whose script fails shows all of its content, which is the one
+ * failure mode that must never happen.
+ *
+ * The marking also decides WHICH children move: anything already holding an
+ * inline opacity or transform belongs to something else and is left alone.
+ */
+[data-motion-item] {
+  opacity: 0;
+  transform: translate3d(0, var(--motion-shift), 0);
+}
+
+[data-motion-item="seen"] {
+  animation: rp-reveal var(--motion-duration) var(--motion-ease) forwards;
+  /* Position within the wave, but never longer than the ceiling above. */
+  animation-delay: min(calc(var(--motion-stagger) * var(--motion-index, 0)), var(--motion-delay-max));
+  will-change: opacity, transform;
+}
+
+@keyframes rp-reveal {
+  to {
+    opacity: 1;
+    /* `none`, not `translate3d(0,0,0)`. With `forwards` the final transform
+       sticks, and any transform — even the identity — makes the element a
+       containing block, which silently breaks `position: fixed` inside it. */
+    transform: none;
+  }
+}
+
+/*
+ * A hero is the opening line: it takes longer, moves less, and its parts are
+ * spaced widely enough to read as staging rather than as a list.
+ */
+[data-motion-role="hero"] {
+  --motion-duration: 1.15s;
+  --motion-stagger: 0.13s;
+  --motion-shift: 20px;
+}
+
+/* A quote needs a beat before the next one. */
+[data-motion-role="proof"] {
+  --motion-stagger: 0.14s;
+}
+
+/* Photographs cascade quickly — a slow wall of images reads as a broken page. */
+[data-motion-role="gallery"] {
+  --motion-stagger: 0.06s;
+  --motion-duration: 0.7s;
+}
+
+/*
+ * Non-negotiable. Anyone who asked their system for less motion gets none, and
+ * the content is fully visible either way.
+ */
+@media (prefers-reduced-motion: reduce) {
+  [data-motion-item] {
+    opacity: 1;
+    transform: none;
+    animation: none;
+    will-change: auto;
+  }
+}

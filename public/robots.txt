@@ -1,0 +1,110 @@
+# Two different things are called "crawling", and they deserve opposite answers.
+#
+# Search — including AI search — sends people back. Being read by Google, Bing,
+# ChatGPT search or Perplexity is how a small business gets found at all, so
+# those are welcome without conditions. That is the whole point of AEO.
+#
+# Harvesting takes and returns nothing: model-training crawlers and site
+# copiers. Those are refused. A refusal in robots.txt is only honoured by
+# crawlers that choose to honour it — the ones that ignore it are handled at the
+# edge, not here — but the well-behaved majority does read this file, and the
+# ones named below publicly commit to obeying it.
+
+# ── Search engines: index everything ──────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ── AI search: welcome, they cite and link back ───────────────────────────────
+# Distinct from the training crawlers below — same companies, different agents.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── Model training: no ────────────────────────────────────────────────────────
+# These read the site to train on it. Nothing comes back.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# ── Site copiers: no ──────────────────────────────────────────────────────────
+# Tools whose only purpose is taking the whole site away.
+User-agent: HTTrack
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+# ── Everyone else ─────────────────────────────────────────────────────────────
+User-agent: *
+Allow: /
+Crawl-delay: 2
