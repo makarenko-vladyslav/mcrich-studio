@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     locale: "nb_NO",
   },
   icons: {
-    icon: "/icon.svg",
+    icon: `${process.env.SITE_BASE_PATH ?? ""}/icon.svg`,
   },
 };
 
@@ -32,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
               <script type="application/ld+json">{"{\"@context\":\"https://schema.org\",\"@type\":\"ProfessionalService\",\"name\":\"McRich Studio\",\"description\":\"McRich Studio — студія вебдизайну та розробки в Осло, яка створює надшвидкі сайти на Framer і Webflow для B2B-компаній та амбітних стартапів. Проєкти здаються за фіксованою вартістю під ключ із гарантованою відповідністю норвезьким стандартам доступності WCAG 2.1 AA. Робота ведеться напряму з розробником, що забезпечує запуск готового вебресурсу без агентської бюрократії всього за 14 днів.\",\"email\":\"ishop.inform@gmail.com\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Осло\",\"addressCountry\":\"no\"},\"makesOffer\":[{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Konverteringsfokuserte Framer-landingssider\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Skalerbare B2B-bedriftsnettsider i Webflow\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Universell utforming og WCAG 2.1 AA-revisjon\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Migrering fra treg WordPress til Framer\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Integrasjon med Vipps, Fiken og Tripletex\"}},{\"@type\":\"Offer\",\"itemOffered\":{\"@type\":\"Service\",\"name\":\"Core Web Vitals \\u0026 Lokal Oslo-SEO\"}}]}"}</script>
+              <meta name="robots" content="noindex, nofollow" />
       </head>
       <body className="min-h-screen bg-bg-light text-text-main antialiased selection:bg-accent selection:text-white">
         <LocaleProvider>{children}</LocaleProvider>

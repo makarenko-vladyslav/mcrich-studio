@@ -32,39 +32,55 @@ export default function Team() {
           </p>
         </div>
 
-        {/* 4 Team cards: Photo first at 3:4 aspect, cropped from top */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {members.map((person, idx) => (
-            <div
-              key={idx}
-              className="bg-bg-card rounded border border-border-light overflow-hidden shadow-sm flex flex-col"
-            >
-              <div className="aspect-[3/4] w-full overflow-hidden bg-bg-light">
-                <img
-                  src={person.imageUrl}
-                  alt={person.name}
-                  loading="lazy"
-                  className="w-full h-full object-cover object-top filter grayscale contrast-105 transition-all duration-300 hover:grayscale-0"
-                />
-              </div>
-              <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between">
-                <div>
-                  <h3 className="font-display text-xl font-bold text-primary">
-                    {person.name}
-                  </h3>
-                  <div className="text-xs font-mono text-accent font-semibold mb-3">
-                    {person.role}
+        <div className="grid grid-cols-1 gap-6">
+          {members.map((person, idx) => {
+            const initials = person.name
+              .split(" ")
+              .filter(Boolean)
+              .map((n) => n[0])
+              .join("")
+              .toUpperCase();
+
+            return (
+              <div
+                key={idx}
+                className="bg-bg-card rounded border border-border-light overflow-hidden shadow-sm flex flex-col sm:flex-row"
+              >
+                <div className="sm:w-64 md:w-80 shrink-0 aspect-[3/4] sm:aspect-auto min-h-[240px] bg-bg-light flex items-center justify-center border-b sm:border-b-0 sm:border-r border-border-light">
+                  {person.imageUrl ? (
+                    <img
+                      src={person.imageUrl}
+                      alt={person.name}
+                      loading="lazy"
+                      className="w-full h-full object-cover object-top filter grayscale contrast-105 transition-all duration-300 hover:grayscale-0"
+                    />
+                  ) : (
+                    <span className="font-display text-5xl sm:text-6xl font-bold tracking-wider text-text-dim select-none">
+                      {initials}
+                    </span>
+                  )}
+                </div>
+                <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="font-display text-2xl sm:text-3xl font-bold text-primary">
+                      {person.name}
+                    </h3>
+                    <div className="text-sm font-mono text-accent font-semibold mt-1 mb-4">
+                      {person.role}
+                    </div>
+                    {person.bio ? (
+                      <p className="text-sm text-text-muted leading-relaxed max-w-2xl">
+                        {person.bio}
+                      </p>
+                    ) : null}
                   </div>
-                  <p className="text-xs text-text-muted leading-relaxed">
-                    {person.bio}
-                  </p>
-                </div>
-                <div className="mt-4 pt-3 border-t border-border-light text-[11px] font-mono text-text-dim">
-                  {location}
+                  <div className="mt-6 pt-4 border-t border-border-light text-xs font-mono text-text-dim">
+                    {location}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

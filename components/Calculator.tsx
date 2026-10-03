@@ -124,15 +124,15 @@ export default function Calculator() {
                       type="button"
                       key={key}
                       onClick={() => toggleOption(key)}
-                      className={`text-left p-3.5 min-h-[44px] rounded border transition-all flex items-center justify-between focus:outline-none ${
+                      className={`text-left p-3.5 min-h-[44px] rounded border transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-4 focus:outline-none ${
                         isChecked
                           ? "bg-bg-card border-accent text-primary shadow-sm"
                           : "bg-white/60 border-border-light text-text-muted hover:border-text-dim"
                       }`}
                     >
-                      <span className="text-sm font-medium pr-3">{label}</span>
+                      <span className="text-sm font-medium sm:pr-3">{label}</span>
                       <span
-                        className={`text-xs font-mono font-bold px-2.5 py-1 rounded transition-colors whitespace-nowrap ${
+                        className={`text-xs font-mono font-bold px-2.5 py-1 rounded transition-colors whitespace-nowrap self-start sm:self-auto shrink-0 ${
                           isChecked
                             ? "bg-accent text-white"
                             : "bg-neutral-200 text-text-dim"

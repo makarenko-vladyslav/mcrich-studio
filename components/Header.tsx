@@ -51,6 +51,7 @@ export default function Header() {
   const ctaLabel = t("nav.cta") as string;
   const menuCloseLabel = t("nav.menuCloseLabel") as string;
   const langLabel = t("nav.langLabel") as string;
+  const brandPhone = t("brand.phone") as string;
 
   const toggleLanguage = () => {
     setLocale(locale === "no" ? "en" : "no");
@@ -106,6 +107,15 @@ export default function Header() {
 
             {/* Right utilities: language + CTA + Menu toggle */}
             <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+              <a
+                href={`tel:${brandPhone}`}
+                className={`hidden md:inline-flex items-center text-xs sm:text-sm font-semibold tracking-wide min-h-[44px] px-2.5 transition-colors whitespace-nowrap ${
+                  scrolled ? "text-text-main hover:text-accent" : "text-white/90 hover:text-white"
+                }`}
+              >
+                {brandPhone}
+              </a>
+
               <button
                 type="button"
                 onClick={toggleLanguage}
@@ -135,20 +145,20 @@ export default function Header() {
                 }`}
                 aria-label={menuOpen ? (t("nav.menuClose") as string) : (t("nav.menuOpen") as string)}
               >
-                <div className="w-5 h-4 flex flex-col justify-between pointer-events-none">
+                <div className="w-5 flex flex-col justify-center gap-1 pointer-events-none">
                   <span
-                    className={`block h-0.5 w-full bg-current transition-transform duration-200 ${
+                    className={`block h-0.5 min-h-[2px] w-full shrink-0 rounded-full bg-current transition-transform duration-200 ${
                       menuOpen ? "rotate-45 translate-y-1.5" : ""
                     }`}
                   />
                   <span
-                    className={`block h-0.5 w-full bg-current transition-opacity duration-200 ${
+                    className={`block h-0.5 min-h-[2px] w-full shrink-0 rounded-full bg-current transition-opacity duration-200 ${
                       menuOpen ? "opacity-0" : ""
                     }`}
                   />
                   <span
-                    className={`block h-0.5 w-full bg-current transition-transform duration-200 ${
-                      menuOpen ? "-rotate-45 -translate-y-2" : ""
+                    className={`block h-0.5 min-h-[2px] w-full shrink-0 rounded-full bg-current transition-transform duration-200 ${
+                      menuOpen ? "-rotate-45 -translate-y-1.5" : ""
                     }`}
                   />
                 </div>
@@ -206,6 +216,13 @@ export default function Header() {
                 {switchLabel}
               </button>
             </div>
+
+            <a
+              href={`tel:${brandPhone}`}
+              className="text-center text-sm font-mono text-white/80 hover:text-accent min-h-[44px] inline-flex items-center justify-center whitespace-nowrap"
+            >
+              {brandPhone}
+            </a>
 
             <a
               href="#contact"

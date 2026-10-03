@@ -6,6 +6,8 @@ export default function Footer() {
 
   const brandTagline = t("brand.tagline") as string;
   const email = t("brand.email") as string;
+  const phone = t("brand.phone") as string;
+  const hours = t("brand.hours") as string;
   const address = t("brand.address") as string;
   const org = t("brand.orgNumber") as string;
   const wordmark = t("footer.wordmark") as string;
@@ -34,7 +36,7 @@ export default function Footer() {
               {wordmark}<span className="text-accent">.</span>
             </a>
             <p className="text-xs font-mono text-text-dim uppercase tracking-wider mb-4">
-              {brandTagline} · OSLO
+              {brandTagline}
             </p>
             <p className="text-sm text-white/70 leading-relaxed max-w-sm mb-4">
               {brandVoiceLine}
@@ -96,7 +98,14 @@ export default function Footer() {
                     {email}
                   </a>
                 </div>
-                <div className="text-xs text-text-dim pt-2">{org}</div>
+                <div>
+                  <a href={`tel:${phone}`} className="text-accent hover:underline min-h-[44px] inline-flex items-center">
+                    {phone}
+                  </a>
+                </div>
+                <div className="text-xs text-text-dim">
+                  {hours}
+                </div>
               </div>
             </div>
 

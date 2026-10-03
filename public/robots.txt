@@ -46,9 +46,6 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
-User-agent: Applebot-Extended
-Allow: /
-
 # ── Model training: no ────────────────────────────────────────────────────────
 # These read the site to train on it. Nothing comes back.
 User-agent: GPTBot
@@ -61,6 +58,10 @@ User-agent: CCBot
 Disallow: /
 
 User-agent: Google-Extended
+Disallow: /
+
+# Apple's training opt-out token, not a crawler: Applebot (above) still indexes for search.
+User-agent: Applebot-Extended
 Disallow: /
 
 User-agent: Bytespider

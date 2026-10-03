@@ -1,8 +1,8 @@
 {
   "basePrices": {
-    "landing": 22500,
-    "company": 48000,
-    "tailored": 79000
+    "landing": 2500,
+    "company": 6900,
+    "tailored": 14900
   },
   "pageRates": {
     "single": 0,

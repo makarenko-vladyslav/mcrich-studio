@@ -278,11 +278,11 @@ export default function Packages() {
                 }`}
               >
                 <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
-                  <div className="flex items-center gap-3">
+                  <div className="flex flex-col sm:flex-row sm:items-center items-start gap-1.5 sm:gap-3">
                     <span className="font-display text-lg sm:text-xl font-bold text-primary">
                       {item.name}
                     </span>
-                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-accent px-2 py-0.5 bg-accent/10 rounded">
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-accent px-2 py-0.5 bg-accent/10 rounded w-fit shrink-0">
                       {item.tag}
                     </span>
                   </div>
